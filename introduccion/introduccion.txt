@@ -1,0 +1,10 @@
+1. Primeros Pasos
+2. Maquetacion
+3. Galeria
+4. Cambiador de temas
+5. Scroll Suavizado
+6. LocalStorage
+7. Acordeon
+8. Reloj
+9. Formulario Contacto
+10. Validacion

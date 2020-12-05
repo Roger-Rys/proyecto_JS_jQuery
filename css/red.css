@@ -1,0 +1,25 @@
+/*FONDO DEL BODY*/
+body{
+	background-image:url('../img/rojo.jpg'); /*Theme*/
+	background-attachment: fixed; 
+}
+
+/*LOGO*/
+#logo{
+	background: #CA3413; /*Theme*/
+}
+
+/*MENU*/
+#menu ul li:hover{
+	background: #CA3413;/*Theme*/
+}
+
+/*BOTON*/
+.button{
+	background:  #CA3413; /*Theme*/
+}
+
+/*RELOJ*/
+#reloj{
+	border: 3px solid #CA3413;
+}

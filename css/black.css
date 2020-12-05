@@ -1,0 +1,56 @@
+/*FONDO DEL BODY*/
+body{
+	background-image:url('../img/black.jpg'); /*Theme*/
+	background-attachment: fixed; 
+}
+/*CABECERA*/
+#global{
+	background: #0f0f0a; 
+}
+/*LOGO*/
+#logo{
+	background: #666; /*Theme*/
+}
+
+/*MENU*/
+#menu ul li:hover{
+	background: #666;/*Theme*/
+}
+
+/*BOTON*/
+.button,input{
+	background:  #666; /*Theme*/
+}
+form input[type="submit"]{
+	background:  #333;
+	color:white;	
+}
+
+/*RELOJ*/
+#reloj{
+	border: 3px solid #3d3d29;
+}
+
+/*POST*/
+.post p{
+	color: white;
+}
+
+/*About*/
+#about p{
+	color: #333; 
+}
+
+/*LOGIN*/
+#login label{
+	color:#666;
+}
+
+/*LOGOUT*/
+#logout{
+	color: #666;
+}
+h4 span{
+	background: #0f0f0a;
+	color:white;	
+}
