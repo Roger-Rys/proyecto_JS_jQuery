@@ -1,0 +1,74 @@
+:root{
+    --yellow:#CC8814;
+	--lightBlack:#141313;;
+    --nigth:#2A3132;
+	--black: #000000;
+}
+body{
+   background: var(--nigth);
+}
+#titleHeader{
+	background: transparent; 
+	color: var(--nigth);
+}
+#titleHeader h1{
+	color: var(--yellow);
+}
+
+#titleHeader a{		
+	color: var(--yellow);
+}
+
+/*Menu*/
+.menu_navroys0987921935
+ a:hover{
+	color: white;
+}
+
+dt{
+	color: var(--yellow);
+}
+dd{
+    color: white;
+}
+p{
+    color: white;
+}
+
+.post h3{
+    color: var(--yellow);
+}
+.post span{
+    color: black;
+}
+
+.aboutMe h3{
+    color: var(--yellow);
+}
+
+.card-block{
+    background: var(--lightBlack);
+    border: black;
+}
+
+.relation_topic h3{
+    color: var(--yellow);
+}
+/*MEnu*/
+
+.dropdown-menu, .dropdown-menu-right{
+    background: var(--lightBlack);
+}
+
+#Footer{
+	background:black;
+}
+#Footer h3{
+	color: white;
+}
+
+
+/*Watch*/
+
+
+	

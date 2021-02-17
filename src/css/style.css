@@ -1,0 +1,94 @@
+:root{
+	--font-LongCang:'Long Cang', cursive;
+	--font-DMSans:'DM Sans', sans-serif;
+	--font-Lora: 'Lora', serif;
+	--darkBlue:#10549C;
+	--lightBLue:#0070E6;
+	--purple:#9E107C;
+	--yellow:#CC8814;
+	--green:#1FA800;
+	--red:#D10048;
+	--cafe:#763626;
+	--nigth:#2A3132;
+	--black: #000000;
+	--size_logo: 55px;
+	--size_menu: 27px;
+	--size_logo_mob: 50px;
+	--size_menu_mob: 20px;
+	--size-carousel_mob: 15px;
+}
+*{
+	font-family: 'DM Sans';
+	font-size: 30px;
+}
+#titleHeader{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+#titleHeader h1{
+	font-family: var(--font-LongCang);
+	letter-spacing: 2px;
+	font-size: var(--size_logo);
+	font-weight: bolder;
+}
+
+#titleHeader a{		
+	font-size: var(--size_menu);
+	font-weight: bolder;
+}
+
+/*Menu*/
+a:hover{
+	font-size: var(--size_menu);
+}
+
+.carousel-inner h4{
+	font-family: var(--font-Lora);
+}
+#carousel-577194{
+	width: 100%;
+}
+
+
+#Footer{
+	padding: 10px;
+}
+#Footer h3{
+	font-size: var(--size_menu);
+}
+
+/*ANIMATION*/
+.grow-opacity {
+	background: black;
+	opacity: 0;
+	animation-name:growOpacity;
+	animation-duration:1s;
+	animation-iteration-count: 1;
+ }
+ @keyframes growOpacity{
+	0%{opacity: 0.2;}
+	50%{opacity: 0.5;}
+	100%{opacity: 1;}
+}
+	
+/*RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+	#titleHeader{
+		position: static;
+		display: block;
+		width: 110%;
+		background: black;
+	}
+
+	#titleHeader h1{
+		font-size: var(--size_logo_mob);
+	}
+	#titleHeader a{		
+		font-size: var(--size_menu_mob);
+	}
+
+	.carousel-caption p{
+		font-size: var(--size-carousel_mob);
+	}
+  }

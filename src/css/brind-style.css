@@ -1,0 +1,47 @@
+:root{
+    --yellow:#CC8814;
+	--green:#1FA800;
+    --nigth:#2A3132;
+	--black: #000000;
+}
+body{
+   background: white;
+}
+#titleHeader{
+	background: transparent; 
+	color: var(--nigth);
+}
+#titleHeader h1{
+	color: var(--yellow);
+}
+
+#titleHeader a{		
+	color: var(--yellow);
+}
+
+/*Menu*/
+.menu_navroys0987921935
+ a:hover{
+	color: white;
+}
+
+dt{
+	color: var(--yellow);
+}
+
+#Footer{
+	background: var(--nigth);
+}
+#Footer h3{
+	color: white;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+	#titleHeader{
+		background: black;
+	}
+}
+
+
+	
